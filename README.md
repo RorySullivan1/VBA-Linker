@@ -1,11 +1,6 @@
 # VBA-Linker
 
-> **Lead paragraph (TODO — your input):** Write 2–4 sentences describing what VBA-Linker is and the pain it solves. Two framings to consider:
->
-> 1. **Problem-first** — "Tired of manually re-pasting Excel charts into PowerPoint every time the model updates? VBA-Linker..."
-> 2. **Capability-first** — "VBA-Linker is a paired Excel/PowerPoint addin that links charts, ranges, and cell values..."
->
-> Once written, delete this blockquote.
+Tired of manually re-pasting Excel charts and re-typing model outputs into PowerPoint every time the numbers change? VBA-Linker is a paired Excel/PowerPoint addin that links charts, ranges, and individual cell values from your workbook into your deck, then refreshes them in place — preserving slide layout, formatting, and any narrative edits you've made around the linked figures. It treats PowerPoint as the source of truth for *what* is linked and where, so decks survive renamed workbooks, moved network paths, and OneDrive/SharePoint sync churn without breaking. The result: build the model once, present from the same deck for the life of the analysis.
 
 VBA-Linker ships as two paired Office addins built from a shared VBA codebase:
 
